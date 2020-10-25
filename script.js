@@ -23,15 +23,22 @@ const disappearClick = () => {
     if (x.style.display === "none") {
         x.style.display = "block";
     } else {
-        x.style.display = "none"; 
+        x.style.display = "none"
+        ; 
     }
 };
 
 var enterEventCount = 0;
+var leaveEventCount = 0;
 const mouseTarget = document.getElementById('bye-enter'); 
 
 mouseTarget.addEventListener('mouseenter', e => {
     mouseTarget.style.border = '1px solid lightblue';
-    leaveEventCount++;
+    enterEventCount++;
+    addListItem('This is mouseenter event ' + enterEventCount + '.');
+});
+mouseTarget.addEventListener('mouseleave', e => {
+    mouseTarget.style.border = 'none';
+    enterEventCount++;
     addListItem('This is mouseleave event ' + leaveEventCount + '.');
 });

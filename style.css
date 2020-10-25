@@ -50,7 +50,7 @@ body {
   flex: 1;
   background-color: #e1e8ed;
   border-radius: 20px;
-  height: 700px;
+  height: 1100px;
   width: 500px;
   padding: 40px;
   font-size: 24px;
@@ -65,8 +65,8 @@ body {
   padding: 10px;
   height: auto;
   width: auto;
-  max-width: 400px;
-  max-height: 400px;
+  max-width: 500px;
+  max-height: 500px;
 }
 .main-content {
   margin-top: 40px;
@@ -75,4 +75,8 @@ body {
 .hover-section {
   color: #657786;
   margin-top: 50px;
+}
+.mouse-over {
+  margin-top: 50px;
+  color: #657786;
 }
