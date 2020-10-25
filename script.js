@@ -12,10 +12,6 @@
 
 document.getElementById("dom-change").onclick = changeColor; 
 
-function changeColor() {
-    document.body.style.backgroundColor = "#a10332";
-    return false;
-}
 
 function changeColor() {
     document.body.style.backgroundColor = "lightblue";

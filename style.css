@@ -8,7 +8,7 @@ body {
 }
 .link {
   text-decoration: none;
-  color: #000;
+  color: #657786;
 }
 .header {
   display: flex;
@@ -35,14 +35,25 @@ body {
 .main {
   display: flex;
   padding: 20px;
+  margin-top: 50px;
+}
+.main-btn {
+  padding: 15px;
+  background-color: lightblue;
+  color: #657786;
+  border-radius: 25px;
+  border: none;
+  width: 100%;
+  font-family: "Carter One", cursive, sans-serif;
 }
 .pallete {
   flex: 1;
   background-color: #e1e8ed;
   border-radius: 20px;
-  height: 500px;
+  height: 700px;
   width: 500px;
-  padding: 20px;
+  padding: 40px;
+  font-size: 24px;
 }
 .image-container {
   display: flex;
@@ -54,6 +65,10 @@ body {
   padding: 10px;
   height: auto;
   width: auto;
-  max-width: 300px;
-  max-height: 300px;
+  max-width: 400px;
+  max-height: 400px;
+}
+.main-content {
+  margin-top: 40px;
+  color: #657786;
 }
